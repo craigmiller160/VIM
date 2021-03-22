@@ -1,13 +1,20 @@
 set nocompatible
 filetype off
 set mouse=a " Click to move cursor
+set number " Line numbers
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'preservim/nerdtree'
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 call vundle#end() 
+
+filetype plugin indent on
+
 
 " This section makes the cursor thin
 if has("autocmd")
