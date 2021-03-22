@@ -22,3 +22,12 @@ Copy the `.vimrc` file from this project to the root of your home directory.
 ## Install Plugins
 
 Open the `.vimrc` file with VIM and then run `:PluginInstall`.
+
+## Setup Terminal Shortcuts
+
+To modify the terminal itself to use VIM shortcuts, add this to the `.inputrc` file (create if doesn't exist)
+
+```
+set editing-mode vi
+set keymap vi
+```
