@@ -30,4 +30,7 @@ To modify the terminal itself to use VIM shortcuts, add this to the `.inputrc` f
 ```
 set editing-mode vi
 set keymap vi
+set show-mode-in-prompt on
+set vi-ins-mode-string "+"
+set vi-cmd-mode-string ":"
 ```
